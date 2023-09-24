@@ -15,7 +15,7 @@ const FormField = ({
       <div className="flex items-center mb-2 gap-2">
         <label
           htmlFor={name}
-          className="block text-sm font-medium text-gray-900"
+          className="block text-sm font-medium text-gray-200"
         >
           {labelName}
         </label>
@@ -37,9 +37,8 @@ const FormField = ({
         onChange={handleChange}
         placeholder={placeholder}
         required
-        className="bg-gray-50 border outline-none block border-gray-300 text-gray-900 text-sm rounded-lg w-full p-3 focus:ring-[#4649ff] focus:border-[#4649ff]"
+        className="bg-[#1E1E1E] border outline-none block border-gray-800 text-gray-900 text-sm rounded-lg w-full p-3 focus:ring-[#4649ff] focus:border-[#4649ff]"
       />
-
     </div>
   );
 };
