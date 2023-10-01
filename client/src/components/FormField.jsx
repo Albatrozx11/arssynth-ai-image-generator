@@ -37,7 +37,7 @@ const FormField = ({
         onChange={handleChange}
         placeholder={placeholder}
         required
-        className="bg-[#1E1E1E] border outline-none block border-gray-800 text-gray-900 text-sm rounded-lg w-full p-3 focus:ring-[#4649ff] focus:border-[#4649ff]"
+        className="bg-[#1E1E1E] border outline-none block border-gray-800 text-gray-200 text-sm rounded-lg w-full p-3 focus:ring-[#4649ff] focus:border-[#4649ff]"
       />
     </div>
   );
